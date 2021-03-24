@@ -1,0 +1,128 @@
+*{
+   
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+.first{
+    margin-top: 6rem;
+}
+
+.first h1{
+    font-size: 5.5rem;
+    text-align: center;
+    font-family: 'Parisienne', cursive;
+    color: #9b59b6;
+}
+body{
+    background-color: #2ecc71;
+    color: #34495e;
+    letter-spacing: 1.5;
+    font-family: 'Dosis', sans-serif;
+}
+.main{
+    color: #34495e;
+}
+.main #item{
+    font-size: 26px;
+    height: 60px;
+    /* height: max-content; */
+    text-align: center;
+    line-height: 2em;
+    font-weight: 500;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5rem;
+}
+.photo{
+    margin-top: 6rem;
+    text-align: center;
+}
+.photo img{
+    /* transition: 5s; */
+    animation: shades 8s;
+    display: inline-block;
+    width: 14%;
+    border-radius: 50%;
+}
+.cricket{
+    vertical-align: middle;
+    margin-top: 5rem;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+
+}
+.cricket .right{
+    margin-left: 1%;
+    margin-right: 4%;
+    text-align: center;
+}
+.cricket .right h1{
+    font-size: 34px;
+    margin-bottom: 2rem;
+}
+.cricket .right p{
+    line-height: 1.5em;
+    font-size: 26px;
+}
+.cricket .left img{
+    width: 80%;
+    border-radius: 25px;
+    margin-left: 20%;
+}
+.singing{
+    vertical-align: middle;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8rem;
+    align-items: center;
+}
+.singing .right{
+    width: 25%;
+    margin-right: 5%;
+}
+.singing .right img{
+    width: 100%;
+    border-radius: 25px;
+    /* margin-left: 20%; */
+}
+.singing .left{
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: center;
+}
+.singing .left h1{
+    font-size: 34px;
+    margin-bottom: 2rem;
+}
+.singing .left p{
+    line-height: 1.5em;
+    font-size: 26px;
+}
+.footer{
+    /* height: ; */
+    margin-top: 3rem;
+    width: 100%;
+    padding-bottom: 5rem;
+    text-align: center;
+    background-color: #8e44ad;
+}
+.footer a{
+    color: blue;
+    font-size: 25px;
+    text-decoration: none;
+    
+}
+#myAudio{
+    display: none;
+}
+@keyframes shades{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
