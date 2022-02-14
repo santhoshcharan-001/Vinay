@@ -10,6 +10,7 @@ t=setInterval(function(){
 },50);
 ily=Number(0);
 u=document.getElementById("myAudio");
+// added by Yashwanth
 function pay()
 {
     ily=ily+1;
